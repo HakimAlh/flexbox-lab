@@ -129,13 +129,13 @@ align-items: center;
 .trending-parent {
   display: flex;
   flex-direction: row;
-  padding: 60px;
+  padding: 5%;
   text-align: center;
-  flex-direction: row;
+  margin: -100px;
   }
   .trending {
     display: flex;
-    jusitfy-content: space-around;
+    flex-direction: row;
   }
 .input-parent {
 display: flex;
@@ -153,4 +153,8 @@ justify-content: flex-start;
 }
 .article-parent {
   display: flex;
+}
+
+p {
+  flex-direction: row;
 }
